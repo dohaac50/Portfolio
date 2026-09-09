@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="home">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+          <div class="logo">DM</div>
+          <div class="title">Doha Magdy Samir</div>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav align-items-lg-center gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <button class="btn btn-primary">Hire Me</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ?hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <p>Hi, I'm Doha Magdy 👋</p>
+
+            <h1>Front-End Developer</h1>
+
+            <p>
+              I create modern and responsive websites using HTML, CSS,
+              Bootstrap, JavaScript and React.
+            </p>
+
+            <a href="#projects" class="btn btn-primary"> View My Work </a>
+
+            <a href="#contact" class="btn btn-outline-primary"> Contact Me </a>
+          </div>
+
+          <div class="col-lg-5 img">
+            <img
+              src="imgs/WhatsApp Image 2026-03-29 at 1.42.37 AM.jpeg"
+              alt="my-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ?about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2>About Me</h2>
+
+            <p>
+              I'm a Computer Science student and Front-End Developer passionate
+              about creating modern and user-friendly websites.
+            </p>
+
+            <p>
+              I enjoy learning new technologies and turning ideas into
+              responsive and interactive web experiences.
+            </p>
+
+            <a href="#contact" class="btn btn-primary"> Let's Talk </a>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="about-box">
+              <h3>What I Do</h3>
+              <p>Responsive Web Design</p>
+              <p>Front-End Development</p>
+              <p>Interactive Websites</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ?skills -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>My Skills</h2>
+          <p>Technologies and tools I work with</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <i class="fa-brands fa-html5"></i>
+              <h3>HTML</h3>
+              <p>Building the structure of modern websites.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h3>CSS</h3>
+              <p>Creating beautiful and responsive designs.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <i class="fa-brands fa-bootstrap"></i>
+              <h3>Bootstrap</h3>
+              <p>Building responsive layouts quickly and easily.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <i class="fa-brands fa-js"></i>
+              <h3>JavaScript</h3>
+              <p>Adding interaction and dynamic features.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <i class="fa-brands fa-react"></i>
+              <h3>React</h3>
+              <p>Building interactive user interfaces.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card">
+              <i class="fa-brands fa-github"></i>
+              <h3>Git & GitHub</h3>
+              <p>Managing and sharing my projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ?projects -->
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>My Projects</h2>
+          <p>Some of the projects I've worked on</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="project-card">
+              <img src="imgs/login.png" alt="login-img" />
+
+              <h3>Page Login</h3>
+
+              <p>Small Page for practice</p>
+
+              <a href="https://dohaac50.github.io/bank/" target="_blank">
+                View Site
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="project-card">
+              <img src="imgs/expence traker.png" alt="expense-img" />
+
+              <h3>Expense Tracker</h3>
+
+              <p>Small Page for practice</p>
+
+              <a href="https://dohaac50.github.io/libraray/" target="_blank">
+                View Site
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ?content -->
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Contact Me</h2>
+          <p>Let's work together and create something amazing!</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <!-- Contact Info -->
+
+          <div class="col-lg-5">
+            <div class="contact-info">
+              <h3>Let's Talk</h3>
+
+              <p>
+                I'm always open to new opportunities, projects and
+                collaborations. Feel free to get in touch with me.
+              </p>
+
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:dodo55dodo1@gmail.com">
+                    doha.magdy@example.com
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <div>
+                  <h4>GitHub</h4>
+                  <a href="https://github.com/dohaac50" target="_blank">
+                    github.com/dohaac50
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <div>
+                  <h4>LinkedIn</h4>
+                  <a
+                    href="https://www.linkedin.com/in/doha-magdy-696800342?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank"
+                  >
+                    My LinkedIn Profile
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+
+          <div class="col-lg-7">
+            <div class="contact-form">
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name">Your Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      class="form-control"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email">Your Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-control"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="message">Your Message</label>
+                    <textarea
+                      id="message"
+                      class="form-control"
+                      rows="6"
+                      placeholder="Write your message..."
+                    ></textarea>
+                  </div>
+
+                  <div class="col-12">
+                    <button type="submit" class="btn contact-btn">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            <h3>Doha Magdy Samir</h3>
+            <p>Front-End Developer</p>
+          </div>
+
+          <div class="footer-social">
+            <a href="https://github.com/dohaac50" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/doha-magdy-696800342?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:dodo55dodo1@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Doha Magdy Samir. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
