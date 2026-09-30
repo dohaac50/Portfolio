@@ -13,7 +13,8 @@
   </head>
 
   <body id="home">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- ?nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
@@ -46,7 +47,16 @@
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#training">Training</a>
+            </li>
 
+            <li class="nav-item">
+              <a class="nav-link" href="#certificates">Certificates</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">Skills</a>
             </li>
@@ -60,7 +70,7 @@
             </li>
 
             <li class="nav-item">
-              <button class="btn btn-primary">Hire Me</button>
+              <a href="#contact" class="btn btn-primary">Hire Me</a>
             </li>
           </ul>
         </div>
@@ -95,6 +105,7 @@
       </div>
     </section>
     <!-- ?about -->
+
     <section class="about" id="about">
       <div class="container">
         <div class="row align-items-center">
@@ -125,6 +136,160 @@
         </div>
       </div>
     </section>
+    <!-- ?Education -->
+    <section class="education" id="education">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Education</h2>
+          <p>My academic background</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+
+              <div class="education-content">
+                <h3>B.Sc. in Computer Science</h3>
+
+                <h4>Banha University</h4>
+
+                <p class="education-date">
+                  <i class="fa-regular fa-calendar"></i>
+                  2024 - Present
+                </p>
+
+                <p>
+                  I'm currently a third-year Computer Science student with an
+                  interest in Front-End Development and modern web technologies.
+                </p>
+
+                <div class="education-subjects">
+                  <span>Data Structures</span>
+                  <span>OOP</span>
+                  <span>Web Development</span>
+                  <span>C++</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ?Training -->
+    <section class="training" id="training">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Training</h2>
+          <p>My training and professional development</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <!-- ITI -->
+          <div class="col-lg-4 col-md-6">
+            <div class="training-card">
+              <div class="training-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+
+              <h3>ITI</h3>
+              <p>Information Technology Institute</p>
+              <span>Front-End Development</span>
+            </div>
+          </div>
+
+          <!-- DEPI -->
+          <div class="col-lg-4 col-md-6">
+            <div class="training-card">
+              <div class="training-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+
+              <h3>DEPI</h3>
+              <p>Digital Egypt Pioneers Initiative</p>
+              <span>Web Development</span>
+            </div>
+          </div>
+
+          <!-- NTI -->
+          <div class="col-lg-4 col-md-6">
+            <div class="training-card">
+              <div class="training-icon">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+
+              <h3>NTI</h3>
+              <p>National Telecommunication Institute</p>
+              <span>Front-End Development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ?Certificates -->
+    <section class="certificates" id="certificates">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>My Certificates</h2>
+          <p>Certificates and achievements</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- ITI Certificate -->
+          <div class="col-md-6 col-lg-4">
+            <div class="certificate-card">
+              <img src="" alt="ITI Certificate" />
+
+              <div class="certificate-content">
+                <h3>ITI</h3>
+                <p>Front-End Development</p>
+
+                <a href="#" target="_blank" class="btn btn-primary">
+                  View Certificate
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- DEPI Certificate -->
+          <div class="col-md-6 col-lg-4">
+            <div class="certificate-card">
+              <img src="" alt="DEPI Certificate" />
+
+              <div class="certificate-content">
+                <h3>DEPI</h3>
+                <p>Web Development</p>
+
+                <a href="#" target="_blank" class="btn btn-primary">
+                  View Certificate
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- NTI Certificate -->
+          <div class="col-md-6 col-lg-4">
+            <div class="certificate-card">
+              <img src="imgs/nti.png" alt="NTI Certificate" />
+
+              <div class="certificate-content">
+                <h3>NTI</h3>
+                <p>Front-End Development</p>
+
+                <a href="imgs/nti.png" target="_blank" class="btn btn-primary">
+                  View Certificate
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ?skills -->
     <section class="skills" id="skills">
       <div class="container">
@@ -186,7 +351,6 @@
     </section>
 
     <!-- ?projects -->
-
     <section class="projects" id="projects">
       <div class="container">
         <div class="text-center mb-5">
@@ -195,29 +359,63 @@
         </div>
 
         <div class="row g-4">
-          <div class="col-lg-6">
+          <!-- Expense Tracker -->
+          <div class="col-md-6 col-lg-3">
             <div class="project-card">
-              <img src="imgs/login.png" alt="login-img" />
+              <img src="imgs/expence traker.png" alt="Expense Tracker" />
 
-              <h3>Page Login</h3>
+              <h3>Expense Tracker</h3>
 
-              <p>Small Page for practice</p>
+              <p>
+                Track and manage daily expenses with an easy-to-use interface.
+              </p>
 
-              <a href="https://dohaac50.github.io/bank/" target="_blank">
+              <a href="https://dohaac50.github.io/libraray/" target="_blank">
                 View Site
               </a>
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <!-- Student Management System -->
+          <div class="col-md-6 col-lg-3">
             <div class="project-card">
-              <img src="imgs/expence traker.png" alt="expense-img" />
+              <img src="imgs/to-do-list.png" alt="Student Management System" />
 
-              <h3>Expense Tracker</h3>
+              <h3>Student Management System</h3>
 
-              <p>Small Page for practice</p>
+              <p>Manage students, grades and subjects in a simple system.</p>
 
-              <a href="https://dohaac50.github.io/libraray/" target="_blank">
+              <a href="https://dohaac50.github.io/Student/" target="_blank">
+                View Site
+              </a>
+            </div>
+          </div>
+
+          <!-- Restaurant Ordering System -->
+          <div class="col-md-6 col-lg-3">
+            <div class="project-card">
+              <img src="imgs/resturant.png" alt="Restaurant Ordering System" />
+
+              <h3>Restaurant Ordering System</h3>
+
+              <p>Browse meals and manage restaurant orders easily.</p>
+
+              <a href="https://dohaac50.github.io/resturant/" target="_blank">
+                View Site
+              </a>
+            </div>
+          </div>
+
+          <!-- Bank Account Manager -->
+          <div class="col-md-6 col-lg-3">
+            <div class="project-card">
+              <img src="imgs/bank-account.png" alt="Bank Account Manager" />
+
+              <h3>Bank Account Manager</h3>
+
+              <p>Manage bank accounts and perform basic banking operations.</p>
+
+              <a href="https://dohaac50.github.io/bank/" target="_blank">
                 View Site
               </a>
             </div>
@@ -225,10 +423,9 @@
         </div>
       </div>
     </section>
+    ```
 
     <!-- ?content -->
-
-    <!-- Contact Section -->
 
     <section class="contact" id="contact">
       <div class="container">
@@ -254,7 +451,7 @@
                 <div>
                   <h4>Email</h4>
                   <a href="mailto:dodo55dodo1@gmail.com">
-                    doha.magdy@example.com
+                    dodo55dodo1@gmail.com
                   </a>
                 </div>
               </div>
@@ -288,15 +485,17 @@
 
           <div class="col-lg-7">
             <div class="contact-form">
-              <form>
+              <form action="https://formspree.io/f/mvkgonga" method="POST">
                 <div class="row g-3">
                   <div class="col-md-6">
                     <label for="name">Your Name</label>
                     <input
                       type="text"
                       id="name"
+                      name="name"
                       class="form-control"
                       placeholder="Enter your name"
+                      required
                     />
                   </div>
 
@@ -304,9 +503,11 @@
                     <label for="email">Your Email</label>
                     <input
                       type="email"
+                      name="email"
                       id="email"
                       class="form-control"
                       placeholder="Enter your email"
+                      required
                     />
                   </div>
 
@@ -314,9 +515,11 @@
                     <label for="message">Your Message</label>
                     <textarea
                       id="message"
+                      name="message"
                       class="form-control"
                       rows="6"
                       placeholder="Write your message..."
+                      required
                     ></textarea>
                   </div>
 
@@ -333,7 +536,7 @@
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- ?Footer -->
 
     <footer class="footer">
       <div class="container">
