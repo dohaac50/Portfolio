@@ -41,7 +41,7 @@ nav {
 
 /* hero section */
 .hero {
-  background-color: rgb(232 232 255);
+    background-color: #f8f0ffe8;
   padding: 80px 0;
   min-height: 500px;
   display: flex;
